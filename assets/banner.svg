@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud infrastructure banner</title>
+  <desc id="desc">Animated terminal and a small Kubernetes cluster. Decorative header for Luis Huachaca's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111C"/>
+      <stop offset="1" stop-color="#0E1C31"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12243C"/>
+      <stop offset="1" stop-color="#0C1828"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#02060C" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="22" fill="none" stroke="#1F3A5F" stroke-opacity="0.9"/>
+
+  <!-- subtle grid -->
+  <g stroke="#1F3A5F" stroke-opacity="0.35" fill="none">
+    <path d="M0 64H1200M0 160H1200M0 256H1200M160 0V320M400 0V320M640 0V320M880 0V320M1120 0V320"/>
+  </g>
+
+  <!-- terminal -->
+  <g filter="url(#soft)">
+    <rect x="36" y="32" width="730" height="256" rx="16" fill="url(#panel)" stroke="#1F3A5F"/>
+  </g>
+  <circle cx="62" cy="58" r="6" fill="#FF5F57"/>
+  <circle cx="82" cy="58" r="6" fill="#FEBC2E"/>
+  <circle cx="102" cy="58" r="6" fill="#28C840"/>
+  <text x="124" y="63" fill="#8B9CB3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">luis@cluster : bash</text>
+  <line x1="52" y1="78" x2="750" y2="78" stroke="#1F3A5F"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+    <text x="56" y="116" fill="#E6EDF3" opacity="1">
+      <tspan fill="#3DDC97">$</tspan>
+      <tspan> kubectl get nodes</tspan>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.88;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="152" fill="#E6EDF3" opacity="1">
+      <tspan fill="#3DDC97">$</tspan>
+      <tspan> terraform plan</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.2;0.88;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="188" fill="#E6EDF3" opacity="1">
+      <tspan fill="#3DDC97">$</tspan>
+      <tspan> cloudflared tunnel run</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.32;0.88;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="224" fill="#E6EDF3" opacity="1">
+      <tspan fill="#3DDC97">$</tspan>
+      <tspan> tailscale status</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.36;0.44;0.88;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+    <text x="56" y="260" fill="#7EC8E3" opacity="1">
+      <tspan fill="#3DDC97">$</tspan>
+      <tspan fill="#E6EDF3"> _</tspan>
+      <animate attributeName="opacity" values="0;0;1;0;1;0" keyTimes="0;0.46;0.5;0.62;0.74;0.88" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- cluster -->
+  <g fill="none" stroke="#1F6FEB" stroke-width="2" stroke-linecap="round">
+    <path d="M980 108 L900 196" stroke-dasharray="6 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M980 108 L1068 196" stroke-dasharray="6 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M900 214 L1068 214" stroke-dasharray="6 8" stroke="#1F3A5F">
+      <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+    <g>
+      <circle cx="980" cy="92" r="28" fill="#0E1C31" stroke="#7EC8E3" stroke-width="2"/>
+      <circle cx="980" cy="92" r="34" fill="none" stroke="#7EC8E3" stroke-opacity="0.35">
+        <animate attributeName="r" values="30;38;30" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.45;0;0.45" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="980" y="96" fill="#E6EDF3" font-size="11">api</text>
+      <text x="980" y="142" fill="#8B9CB3" font-size="12">control plane</text>
+    </g>
+    <g>
+      <circle cx="900" cy="214" r="24" fill="#0E1C31" stroke="#58A6FF" stroke-width="2"/>
+      <text x="900" y="218" fill="#E6EDF3" font-size="11">n1</text>
+      <text x="900" y="258" fill="#8B9CB3" font-size="12">worker</text>
+    </g>
+    <g>
+      <circle cx="1068" cy="214" r="24" fill="#0E1C31" stroke="#58A6FF" stroke-width="2"/>
+      <text x="1068" y="218" fill="#E6EDF3" font-size="11">n2</text>
+      <text x="1068" y="258" fill="#8B9CB3" font-size="12">worker</text>
+    </g>
+  </g>
+
+  <circle r="4" fill="#7EC8E3">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M980,108 L900,196"/>
+  </circle>
+  <circle r="4" fill="#7EC8E3">
+    <animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite" path="M980,108 L1068,196"/>
+  </circle>
+</svg>

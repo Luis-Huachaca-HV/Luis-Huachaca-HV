@@ -4,13 +4,13 @@
 
 # Luis Fredy Huachaca Vargas
 
-**Cloud / DevOps & Security Engineer · CTO @ [Moontecx](https://www.moontecx.com/)**
+**Cloud / DevOps & Security Engineer · Co-founder & CTO @ [Moontecx](https://www.moontecx.com/)**
 
 Arequipa, Perú · vers la France · ES / FR / EN
 
 ![Roles](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=800&color=1F6FEB&center=true&vCenter=true&width=820&height=42&lines=Kubernetes+%C2%B7+microservices+%C2%B7+Linux;Cloudflare+%C2%B7+Tailscale+%C2%B7+blue%2Fgreen+deploys;Python+%C2%B7+React+%C2%B7+data+%26+ETL;Green+computing+%C2%B7+ESTIA+%C2%B7+France;Cybersecurity+%C2%B7+currently+learning;Ing%C3%A9nieur+cloud+%26+s%C3%A9curit%C3%A9)
 
-[![Moontecx](https://img.shields.io/badge/Moontecx-CTO-1F3A5F?style=for-the-badge)](https://www.moontecx.com/)
+[![Moontecx](https://img.shields.io/badge/Moontecx-Co--founder%20%26%20CTO-1F3A5F?style=for-the-badge)](https://www.moontecx.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luis%20Huachaca-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-huachaca-vargas-5a893120a)
 [![GitHub](https://img.shields.io/badge/GitHub-Luis--Huachaca--HV-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Luis-Huachaca-HV)
 [![CV](https://img.shields.io/badge/CV-EN%20%2F%20ES-1F3A5F?style=for-the-badge)](https://luis-huachaca-hv.github.io/Resume/)
@@ -19,11 +19,11 @@ Arequipa, Perú · vers la France · ES / FR / EN
 
 ## About
 
-Computer scientist in Arequipa, Peru (Ciencia de la Computación, Universidad Católica San Pablo, 2020–2025). CTO at [Moontecx](https://www.moontecx.com/) since October 2026: technology strategy, product, and cloud infrastructure for the startup.
+Computer scientist in Arequipa, Peru (Ciencia de la Computación, Universidad Católica San Pablo, 2020–2025). Co-founder and CTO at [Moontecx](https://www.moontecx.com/) since October 2026: technology strategy, product, and cloud infrastructure for the startup.
 
-Previously at Newroad Global Investing (December 2025–October 2026), on the stock-market / wealth-management side. Work there included data analysis and ETL, and the production setup for **Wealth Navigator**: a VPS, Tailscale, Cloudflare Tunnel, and blue/green deploys. Also took part in a networking event on investing with Inviu in Arequipa.
+Previously a junior software engineer and data analyst at Newroad Global Investing (December 2025–October 2026), on the stock-market / wealth-management side. Work there included data analysis and ETL, and the production setup for **Wealth Navigator**: a VPS, Tailscale, Cloudflare Tunnel, and blue/green deploys. Also took part in a networking event on investing with Inviu in Arequipa.
 
-Research stay and exchange at ESTIA Institute of Technology (Bidart, France), 2023–2025, on green computing: comparative energy use of microservice architectures on AWS EC2, measured with PowerAPI and Scaphandre, in a stack of Kubernetes, Helm, Terraform, CI/CD, Docker, Grafana, and Linux.
+Research stay and exchange at ESTIA Institute of Technology (Bidart, France), 2023–2025, on-site in France for the whole period. The work was green computing: comparative energy use of microservice architectures on AWS EC2, measured with PowerAPI and Scaphandre, in a stack of Kubernetes, Helm, Terraform, CI/CD, Docker, Grafana, and Linux.
 
 Co-created **SAM (Savings Asset Manager)** with Manuel Cáceres — a budgeting and investing app for developers, through brokers such as Wallbit and IBKR. There is no public repository for SAM yet. He also builds on Cloudflare Workers (free tier); [iglepicha](https://github.com/Luis-Huachaca-HV/iglepicha) is the public example.
 
@@ -101,29 +101,29 @@ Next.js app for football pickup games (auth, live match dashboard, draft, attend
 
 **SAM (Savings Asset Manager)** — budgeting and investing for developers, co-created with Manuel Cáceres (Wallbit, IBKR). No public repository.
 
-**Techsuyo 2023** — finalist, AI hackathon.
+**Techsuyo 2023** — finalist, AI hackathon organized by Google Developer Group and Silicon Valley tech group.
 
 Earlier C/C++ coursework is still on the account. [RubickAnimations](https://github.com/Luis-Huachaca-HV/RubickAnimations) is an old Rubik’s-cube animation project; it is not the focus of this profile.
 
 ## Experience
 
-**CTO · [Moontecx](https://www.moontecx.com/)**  
+**Co-founder & CTO · [Moontecx](https://www.moontecx.com/)**  
 October 2026 — present · Arequipa, Peru
 
 Technology startup. Technology strategy, product, and cloud infrastructure.
 
-**Software engineer & data analyst · Newroad Global Investing**  
+**Junior software engineer & data analyst · Newroad Global Investing**  
 December 2025 — October 2026 · Peru
 
 Integration of the company’s technology, data analysis, and ETL for the client experience. Production infrastructure for the Wealth Navigator wealth-management platform: VPS, Cloudflare Tunnel, Tailscale, blue/green deploys. Took part in organizing a networking event on investing with Inviu in Arequipa.
 
 **Research, cloud systems & full stack · ESTIA Institute of Technology**  
-2023 — 2025 · Bidart, France
+2023 — 2025 · on-site, Bidart, France
 
-Green-computing research: energy of microservice architectures on AWS EC2 with PowerAPI and Scaphandre. Environment: Kubernetes, Helm, Terraform, CI/CD, Docker, Grafana, Linux. Includes a computer-engineering exchange at the same school.
+The whole stay was on-site in France, including the computer-engineering exchange. Green-computing research: energy of microservice architectures on AWS EC2 with PowerAPI and Scaphandre. Environment: Kubernetes, Helm, Terraform, CI/CD, Docker, Grafana, Linux.
 
 **GIPE 2023 · DAAD / UNDP Accelerator Labs**  
-2023
+January 2023 — December 2023
 
 International project with the Westfälische Hochschule (Germany) and universities in Namibia and Indonesia. Results presented to the vice-rector of UCSP.
 
@@ -140,7 +140,7 @@ Donation website for a reforestation NGO.
 Relevant coursework: Cloud Computing, Computer Security, Big Data, Databases, Artificial Intelligence, Software Engineering, Statistics and Probability, Numerical Analysis, technology-venture formation, and leadership.
 
 **Exchange · Computer Engineering** · ESTIA Institute of Technology, Bidart, France  
-Part of the 2023–2025 research stay above.
+On-site in France, part of the 2023–2025 research stay above.
 
 **Languages** — Spanish (native) · French B2 (DELF B2 session, November 2026) · English, working proficiency · German, basic.
 
